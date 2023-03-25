@@ -1,0 +1,5 @@
+Krok 1. Wprowadzenie roku.
+Krok 2. Sprawdzenie, czy rok jest podzielny przez 4 i nie jest podzielny przez 100; TAK: idź KROK 4; NIE: idź KROK 3.
+Krok 3. Sprawdzenie, czy rok jest podzielny przez 400; TAK: idź KROK 4; NIE: idź KROK 5.
+Krok 4. Rok jest przestępny.
+Krok 5. Rok nie jest przestępny.
