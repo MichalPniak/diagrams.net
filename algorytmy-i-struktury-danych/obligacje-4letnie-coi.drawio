@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-04-30T20:56:51.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-LxCchSenlDlrpRdqij-" version="21.2.3" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1850" dy="973" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G0N5SnTvlpvtzq8h-69o-2" target="G0N5SnTvlpvtzq8h-69o-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-2" value="wczytaj: liczbaObligacji&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;wczytaj: cenaObligacji&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;wczytaj: okresOdsetkowy&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;wczytaj: stopaOprocentowania&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;wczytaj: czyPrzedtermiowyWykup&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=0;arcSize=12;size=0.13043478260869565;hachureGap=4;fontFamily=Lucida Console;fontSize=12;glass=0;shadow=0;labelBackgroundColor=none;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="-309" width="286.5" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-28" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G0N5SnTvlpvtzq8h-69o-21" target="G0N5SnTvlpvtzq8h-69o-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-30" value="TAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G0N5SnTvlpvtzq8h-69o-21" target="G0N5SnTvlpvtzq8h-69o-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-21" value="czyPrzedtermiowyWykup&amp;nbsp;== true" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="168.38" y="-27" width="249.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-25" value="oprocentowanieDzinne = stopaProcentowa div (okresOdsetkowy - (okresOdsetkowy + 1rok))&lt;br&gt;dniDoWykupu = dataPrzedterminowegoWykupu - okresOdsetkowy&lt;br&gt;odsetki =&amp;nbsp;" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-447" y="140" width="634.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-27" value="odsetki = wartoscObligacji * stopaOprocentowania" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="563.01" y="13" width="379.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G0N5SnTvlpvtzq8h-69o-29" target="G0N5SnTvlpvtzq8h-69o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-29" value="wczytaj: dataPrzedterminowegoWykupu" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-251" y="13" width="242.51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G0N5SnTvlpvtzq8h-69o-32" target="G0N5SnTvlpvtzq8h-69o-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0N5SnTvlpvtzq8h-69o-32" value="wartoscObligacji = liczbaObligacji * cenaObligacji" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="102.88999999999999" y="-158" width="380.74" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
