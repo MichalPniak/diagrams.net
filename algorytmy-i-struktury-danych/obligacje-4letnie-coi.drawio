@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-30T21:09:49.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="FDkEC0woecP9g_K8d9nS" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-30T21:11:02.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xeEU0-RPtMtgpIlENGmv" version="21.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1850" dy="1373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -47,10 +47,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-15" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GHDc347PjUDZJcFAovGg-0" target="GHDc347PjUDZJcFAovGg-12">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.5017" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-131" y="479" />
+              <mxPoint x="286" y="479" />
+              <mxPoint x="286" y="348" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-0" value="kara &amp;gt; odsetki" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -60,13 +63,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-8" value="odsetki = 0" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="171.005" y="318" width="120" height="60" as="geometry" />
+          <mxGeometry x="68.99499999999999" y="318" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GHDc347PjUDZJcFAovGg-12" target="GHDc347PjUDZJcFAovGg-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-12" value="odsetkiOpodatkowane = odsetki - (odsetki * 0.19)" style="whiteSpace=wrap;html=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560.26" y="445" width="385.5" height="60" as="geometry" />
+          <mxGeometry x="560.26" y="318" width="385.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GHDc347PjUDZJcFAovGg-16" target="GHDc347PjUDZJcFAovGg-20">
           <mxGeometry relative="1" as="geometry">
@@ -74,16 +77,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-16" value="wypisz: odsetki&lt;br&gt;wypisz: odsetkiOpodatkowane" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Lucida Console;strokeWidth=1;rounded=0;arcSize=12;hachureGap=4;glass=0;shadow=0;labelBackgroundColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="626.64" y="574" width="252.75" height="60" as="geometry" />
+          <mxGeometry x="626.64" y="444" width="252.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-20" value="KONIEC" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="703.01" y="713" width="100" height="60" as="geometry" />
+          <mxGeometry x="703.01" y="570" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GHDc347PjUDZJcFAovGg-21" target="G0N5SnTvlpvtzq8h-69o-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GHDc347PjUDZJcFAovGg-21" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="243.26" y="-458" width="100" height="60" as="geometry" />
+          <mxGeometry x="243.26" y="-418" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
