@@ -1,51 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T09:43:07.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7AZe_2ssaH4zplF_hXKr" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T11:21:45.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hv9ePBE_J8XHfNyMHjN-" version="21.3.7" type="github">
   <diagram name="Strona-1" id="uGcpRZU6NgpHU1xebrsN">
-    <mxGraphModel dx="1450" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SnsUbLCSZcXVaI-WfpS3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ti8bBpOAtPQ81vVUXoVw-1" target="SnsUbLCSZcXVaI-WfpS3-1">
+        <mxCell id="SnsUbLCSZcXVaI-WfpS3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti8bBpOAtPQ81vVUXoVw-1" target="SnsUbLCSZcXVaI-WfpS3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ti8bBpOAtPQ81vVUXoVw-1" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="140" y="60" width="100" height="60" as="geometry" />
+          <mxGeometry x="-20" y="50" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-7" value="TAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti8bBpOAtPQ81vVUXoVw-8" target="tffMLPbtxx34B7XqvIBA-6" edge="1">
+        <mxCell id="tffMLPbtxx34B7XqvIBA-7" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti8bBpOAtPQ81vVUXoVw-8" target="tffMLPbtxx34B7XqvIBA-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-32" value="NIE" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti8bBpOAtPQ81vVUXoVw-8" target="tffMLPbtxx34B7XqvIBA-31" edge="1">
+        <mxCell id="tffMLPbtxx34B7XqvIBA-32" value="TAK" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ti8bBpOAtPQ81vVUXoVw-8" target="tffMLPbtxx34B7XqvIBA-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ti8bBpOAtPQ81vVUXoVw-8" value="Kolejka != nil" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="140" y="280" width="100" height="100" as="geometry" />
+        <mxCell id="ti8bBpOAtPQ81vVUXoVw-8" value="kolejka jest pusta" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-25" y="280" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tffMLPbtxx34B7XqvIBA-6" target="tffMLPbtxx34B7XqvIBA-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-6" value="liczba =&amp;nbsp;PobierzZKolejki(Kolejka)" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="97.5" y="440" width="185" height="60" as="geometry" />
+          <mxGeometry x="-62.5" y="440" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-15" value="TAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tffMLPbtxx34B7XqvIBA-8" target="tffMLPbtxx34B7XqvIBA-14" edge="1">
+        <mxCell id="tffMLPbtxx34B7XqvIBA-15" value="TAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-8" target="tffMLPbtxx34B7XqvIBA-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-18" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tffMLPbtxx34B7XqvIBA-8" target="tffMLPbtxx34B7XqvIBA-17" edge="1">
+        <mxCell id="tffMLPbtxx34B7XqvIBA-18" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-8" target="tffMLPbtxx34B7XqvIBA-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-8" value="liczba mod 2 == 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="130" y="530" width="120" height="110" as="geometry" />
+          <mxGeometry x="-30" y="530" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-14" edge="1" target="ti8bBpOAtPQ81vVUXoVw-8">
+        <mxCell id="39aRlqSUeUamqpK47f_N-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tffMLPbtxx34B7XqvIBA-14" target="ti8bBpOAtPQ81vVUXoVw-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="250" as="targetPoint" />
+            <mxPoint x="30" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-280" y="730" />
-              <mxPoint x="-280" y="590" />
-              <mxPoint x="-280" y="330" />
+              <mxPoint x="185" y="750" />
+              <mxPoint x="-260" y="750" />
+              <mxPoint x="-260" y="250" />
+              <mxPoint x="30" y="250" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-14" value="PolozNaStos(StosParzystych, liczba)&lt;br&gt;iloscLiczbParzystych = iloscLiczbParzystych + 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="60" y="700" width="265" height="60" as="geometry" />
+        <mxCell id="tffMLPbtxx34B7XqvIBA-14" value="PolozNaStos(StosParzystych, liczba)" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="650" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -53,46 +54,79 @@
             <mxPoint x="350" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-17" value="PolozNaStos(StosNieparzystych, liczba)&lt;br&gt;iloscLiczbNieparzystych = iloscLiczbNieparzystych+ 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="555" width="295" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="640" as="sourcePoint" />
-            <mxPoint x="-280" y="585" as="targetPoint" />
+        <mxCell id="39aRlqSUeUamqpK47f_N-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tffMLPbtxx34B7XqvIBA-17" target="ti8bBpOAtPQ81vVUXoVw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-132" y="750" />
+              <mxPoint x="-260" y="750" />
+              <mxPoint x="-260" y="250" />
+              <mxPoint x="30" y="250" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tffMLPbtxx34B7XqvIBA-17" value="PolozNaStos(StosNieparzystych, liczba)" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-245" y="650" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tffMLPbtxx34B7XqvIBA-31" target="tffMLPbtxx34B7XqvIBA-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-31" value="i = 0" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="310" y="300" width="60" height="60" as="geometry" />
+          <mxGeometry x="200" y="305" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-36" value="TAK" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-33" target="tffMLPbtxx34B7XqvIBA-35" edge="1">
+        <mxCell id="tffMLPbtxx34B7XqvIBA-40" value="TAK" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-33" target="tffMLPbtxx34B7XqvIBA-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-33" target="tffMLPbtxx34B7XqvIBA-39" edge="1">
+        <mxCell id="39aRlqSUeUamqpK47f_N-12" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tffMLPbtxx34B7XqvIBA-33" target="39aRlqSUeUamqpK47f_N-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-33" value="StosParzystych != nil &amp;amp;&amp;amp; StosNieparzystych != nil" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="440" y="255" width="190" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.194;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tffMLPbtxx34B7XqvIBA-35" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tffMLPbtxx34B7XqvIBA-35" value="&lt;div style=&quot;line-height: 120%;&quot;&gt;TablicaParzysteNieparzyste[i][Parzysta] = ZdejmijZeStosu(StosParzystych)&lt;/div&gt;TablicaParzysteNieparzyste[i][Nieparzysta] = ZdejmijZeStosu(StosNieparzystych)&lt;br&gt;i = i + 1" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;" parent="1" vertex="1">
-          <mxGeometry x="315" y="465" width="440" height="65" as="geometry" />
+        <mxCell id="tffMLPbtxx34B7XqvIBA-33" value="Stos liczb parzystych &lt;br&gt;lub stos liczb nieparzystych&lt;br&gt;jest pusty?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="370" y="260" width="190" height="150" as="geometry" />
         </mxCell>
         <mxCell id="tffMLPbtxx34B7XqvIBA-39" value="KONIEC" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="700" y="300" width="100" height="60" as="geometry" />
+          <mxGeometry x="630" y="305" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SnsUbLCSZcXVaI-WfpS3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SnsUbLCSZcXVaI-WfpS3-1" target="ti8bBpOAtPQ81vVUXoVw-8">
+        <mxCell id="SnsUbLCSZcXVaI-WfpS3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SnsUbLCSZcXVaI-WfpS3-1" target="ti8bBpOAtPQ81vVUXoVw-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SnsUbLCSZcXVaI-WfpS3-1" value="wczytaj: Kolejka" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="130" y="170" width="120" height="60" as="geometry" />
+        <mxCell id="SnsUbLCSZcXVaI-WfpS3-1" value="wczytaj: Kolejka" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39aRlqSUeUamqpK47f_N-1" target="39aRlqSUeUamqpK47f_N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-1" value="liczba =&amp;nbsp;ZdejmijZeStosu(StosParzystych)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="460" width="277.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39aRlqSUeUamqpK47f_N-4" target="39aRlqSUeUamqpK47f_N-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-4" value="TablicaParzysteNieparzyste[i].parzysta = liczba" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="550" width="277.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="39aRlqSUeUamqpK47f_N-10" target="tffMLPbtxx34B7XqvIBA-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="850" />
+              <mxPoint x="310" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-10" value="i = i + 1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39aRlqSUeUamqpK47f_N-19" target="39aRlqSUeUamqpK47f_N-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-19" value="liczba =&amp;nbsp;ZdejmijZeStosu(StosNieparzystych)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324.06" y="640" width="281.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="39aRlqSUeUamqpK47f_N-20" target="39aRlqSUeUamqpK47f_N-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39aRlqSUeUamqpK47f_N-20" value="TablicaParzysteNieparzyste[i].nieparzysta = liczba" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323.12" y="730" width="283.75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
